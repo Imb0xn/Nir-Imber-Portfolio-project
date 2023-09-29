@@ -254,6 +254,7 @@ header ul li a {
 .grid-item p {
   margin-bottom: 20px;
   font-size: 16px;
+  padding: 10px;
 }
 
 .grid-item h3 {
@@ -268,7 +269,7 @@ header ul li a {
   max-width: 100%;
   aspect-ratio: 1/0.5;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .icons img {
@@ -450,21 +451,17 @@ textarea {
 }
 
 @media screen and (max-width: 700px) {
-
   .nir-imber-logo,
   .me-icon-logo {
     display: none;
   }
-
   .icon-container img {
     width: 55px;
     height: 55px;
   }
-
   header ul {
     width: auto;
   }
-
   .back-to-top-btn {
     color: white;
     padding: 10px 10px;
@@ -474,12 +471,10 @@ textarea {
     transition: background-color 0.3s ease;
   }
 }
-
 @media (max-width: 450px) {
   .hamburger {
     display: block;
   }
-
   header ul li a {
     display: none;
     background-color: whitesmoke;
@@ -487,15 +482,12 @@ textarea {
     width: 100%;
     z-index: 9998;
   }
-
   nav ul {
     display: block;
   }
-
-  .hamburger:hover+ul li a {
+  .hamburger:hover + ul li a {
     display: block;
   }
-
   /* Logo  */
   /* Responsive- Hamburger & Nav  - END OF SECTION*/
   .center-text {
@@ -504,18 +496,15 @@ textarea {
     font-size: 15px;
     text-align: center;
   }
-
   .icon-container {
     gap: 8px;
   }
-
   .icon-container img {
     margin-top: 7px;
     margin-bottom: 5px;
     width: 45px;
     height: 45px;
   }
-
   .main,
   .main-text {
     margin-bottom: auto;
@@ -523,39 +512,31 @@ textarea {
     box-sizing: border-box;
     font-size: 1.5rem;
   }
-
   .profile-image {
     margin-top: 0;
   }
-
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
     padding: 25px;
     gap: 0;
   }
-
   .grid-item {
     margin: 20px 0px;
   }
-
   .project-link {
     margin-bottom: 25px;
   }
-
   .contact {
     box-sizing: border-box;
     font-size: 10px;
   }
-
   .contact-form {
     width: auto;
   }
-
   input,
   textarea {
     width: 100%;
   }
-
   .submit-button {
     font-style: normal;
     font-weight: bold;
@@ -572,32 +553,26 @@ textarea {
     min-width: 93px;
     text-align: center;
   }
-
   .contact-form {
     margin-left: 10px;
   }
-
   .contact p {
     margin-top: auto;
   }
-
   .contact-icons ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
     padding: 0;
   }
-
   .contact-icons ul li {
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
   }
-
   .contact-icons ul li a {
     padding: 20px;
   }
-
   .icon-wrapper {
     display: flex;
     flex-direction: column;

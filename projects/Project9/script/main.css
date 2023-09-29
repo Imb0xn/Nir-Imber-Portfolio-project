@@ -60,16 +60,13 @@ body {
   .navbar-nav {
     flex-direction: row !important;
   }
-
   .nav-item {
     margin-right: 10px;
   }
-
   .btn {
     vertical-align: bottom;
   }
 }
-
 @media (max-width: 600px) {
   .links-collapse {
     display: none;
@@ -77,12 +74,10 @@ body {
     width: 100%;
     z-index: 10;
   }
-
   .navbar:hover .links-collapse {
     display: block;
   }
 }
-
 @media (max-width: 600px) {
   .nav-link {
     font-size: 1rem;
