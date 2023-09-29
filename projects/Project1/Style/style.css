@@ -1,0 +1,152 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            direction: rtl;
+        }
+
+        .parent {
+            width: 100vw;
+            height: 590px;
+            padding: 20px;
+            background-color: #FFFFFF;
+            background-image: url(../Images/Path15.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: top right;
+            position: absolute;
+        }
+
+        .middleRectangle {
+            max-width: 570px;
+            max-height: 645px;
+            margin-top: 7%;
+            margin-right: 14%;
+            font-weight: 900;
+            font-family: 'Heebo', sans-serif;
+            color: #FFFFFF;
+            background: #1A1A1AD4 0% 0% no-repeat padding-box;
+            display: flex;
+            flex-direction: column;
+            padding: 75px;
+
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-family: Heebo;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.25em;
+            font-weight: normal;
+            margin-bottom: 45px;
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label[for="fullName"],
+        label[for="email"],
+        input[type="text"],
+        input[type="email"] {
+            color: white;
+            font-weight: bold;
+        }
+
+
+        input[type="text"],
+        input[type="email"] {
+            color: black;
+            box-sizing: border-box;
+            max-width: 420px;
+            height: 50px;
+            border: 1px solid #D31C75;
+            margin-bottom: 18px;
+        }
+
+
+        .submit-button {
+            max-width: 166px;
+            height: 50px;
+            font-size: 1.35rem;
+            font-weight: bold;
+            background-color: #D31C75;
+            color: #FFFFFF;
+            border: none;
+            margin-top: 18px;
+        }
+
+        @media (max-width: 800px) {
+
+
+
+            .parent {
+                height: 215px;
+                padding: 30px;
+                background-color: #FFFFFF;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .middleRectangle {
+                padding: 34px;
+                max-width: 300px;
+                max-height: 441px;
+                margin-top: 90px;
+                margin-inline: auto;
+            }
+
+
+            h1 {
+                font-size: 1.5rem;
+                font-family: Heebo;
+                margin-bottom: 13px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 1rem;
+                font-weight: normal;
+                margin-bottom: 22px;
+                text-align: center;
+
+            }
+
+            label[for="fullName"],
+            label[for="email"],
+            input[type="text"],
+            input[type="email"] {
+                color: white;
+                font-weight: bold;
+                font-size: 0.9em;
+            }
+
+            input[type="text"],
+            input[type="email"] {
+                color: black;
+                box-sizing: border-box;
+                max-width: 229px;
+                height: 28px;
+                border: 1px solid #D31C75;
+            }
+
+            .submit-button {
+                max-width: 76px;
+                height: 33px;
+                font-size: 0.9rem;
+                font-weight: bold;
+                background-color: #D31C75;
+                color: #FFFFFF;
+                border: none;
+                margin-top: 0;
+            }
+
+        }

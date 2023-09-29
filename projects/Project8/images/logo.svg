@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85.26 35.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7dd8b7;
+        font-family: Rubik-Bold, Rubik;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        letter-spacing: .11em;
+      }
+
+      .cls-3 {
+        letter-spacing: .13em;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        letter-spacing: .14em;
+      }
+    </style>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <text class="cls-1" transform="translate(0 28.09)"><tspan class="cls-5" x="0" y="0">SHO</tspan><tspan class="cls-2" x="30.3" y="0">P</tspan><tspan class="cls-3" x="39.78" y="0" xml:space="preserve"> NAME</tspan></text>
+      <g>
+        <rect class="cls-4" x="11" y="34.36" width="61.29" height=".89"/>
+        <g>
+          <path class="cls-4" d="m54.56,13.93H11v.89h43.59c-.11-.29-.12-.59-.03-.89Z"/>
+          <path class="cls-4" d="m55.16,13.93c.1.29.15.59.14.89h16.98v-.89h-17.13Z"/>
+        </g>
+        <path class="cls-4" d="m27.56,12.61c1.03-3.73,4.51-12.61,14.51-12.61s12.85,8.8,13.62,12.6c.78.27,1.34,1.01,1.34,1.88,0,1.1-.89,2-2,2s-2-.89-2-2c0-.59.27-1.12.68-1.49-.63-3.31-3.02-10.95-11.64-10.95s-11.56,7.58-12.5,10.94c.42.37.69.9.69,1.5,0,1.1-.89,2-2,2s-2-.89-2-2c0-.86.54-1.58,1.3-1.87Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

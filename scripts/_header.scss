@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    max-width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nir-imber-logo {
+    width: auto;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.me-icon-logo {
+    max-width: 62px;
+    height: 62px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
