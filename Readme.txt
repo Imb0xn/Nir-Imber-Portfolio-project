@@ -1,4 +1,4 @@
-# WebDevPortfolio_NirImber
+# Nir-Imber-Portfolio-project
 
 A comprehensive and interactive portfolio webpage designed to showcase my journey, experiences, and projects as a Full Stack Developer.
  It features an integrated CV, a dynamic gallery displaying a compilation of my projects, and contact information, offering insights into my technical skills, proficiencies, and contributions to the software development world.
