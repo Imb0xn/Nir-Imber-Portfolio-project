@@ -1,4 +1,4 @@
-# WebDevPortfolio_NirImber
+# Nir-Imber-Portfolio-project
 
 A comprehensive and interactive portfolio webpage designed to showcase my journey, experiences, and projects as a Full Stack Developer.
  It features an integrated CV, a dynamic gallery displaying a compilation of my projects, and contact information, offering insights into my technical skills, proficiencies, and contributions to the software development world.
@@ -43,7 +43,7 @@ This project doesn’t require any installation or setup processes. You can view
 2. Navigate to the directory where you want to clone the repository.
 3. Run the following command:
 
-```sh
+"```sh" - (Without Apostrophes)
 git clone <repository-url>
 
 
