@@ -103,7 +103,7 @@
 
         /* Top Banner and Languages */
         .welcomeTop {
-            background-image: url("../Images/Bannerexample.jpg");
+            background-image: url("../images/Bannerexample.jpg");
             background-color: #13E8F1;
             background-size: cover;
             background-repeat: no-repeat;
@@ -314,7 +314,7 @@
 
         .contact-wrapper {
             padding: 40px 0;
-            background-image: url(../Images/Rectangle.png);
+            background-image: url(../images/Rectangle.png);
             background-repeat: no-repeat;
             background-position: top right;
             background-size: 50%;

@@ -31,22 +31,26 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 nav .nav-links {
   display: flex;
   align-items: center;
 }
+
 nav .nav-links a {
   color: white;
   font-size: 1.5rem;
   text-decoration: none;
   margin: 0 2rem;
 }
+
 nav .nav-links .underline {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 0.5em;
   text-decoration-color: aqua;
 }
+
 nav .hamburger {
   color: white;
   font-size: 2.5rem;
@@ -62,38 +66,49 @@ nav .hamburger {
   .container-wrapper {
     width: auto;
   }
+
   .container {
     width: 95%;
   }
+
   nav .nav-links {
     display: none;
   }
+
   nav .nav-links a {
     font-size: 1rem;
   }
+
   nav .hamburger {
     display: block;
   }
+
   nav .nav-links .underline {
     text-decoration: none;
   }
 }
+
 @media (max-width: 768px) {
   .container-wrapper {
     width: auto;
   }
+
   .container {
     width: 90%;
   }
+
   .nav-links a {
     display: none;
   }
+
   nav .nav-links a {
     font-size: 1.2rem;
   }
+
   .hamburger {
     display: block;
   }
+
   nav .nav-links .underline {
     text-decoration: underline;
     text-decoration-thickness: 2px;
@@ -101,41 +116,50 @@ nav .hamburger {
     text-decoration-color: aqua;
   }
 }
+
 @media (max-width: 1250px) {
   nav .nav-links {
     display: flex;
     align-items: center;
     flex-direction: row;
   }
+
   nav .nav-links a {
     font-size: 1em;
   }
+
   nav .nav-links nav .hamburger {
     display: none;
   }
+
   nav .nav-links nav .nav-links .underline {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 0.5em;
     text-decoration-color: aqua;
   }
+
   nav .nav-links nav .nav-links a {
     font-size: 1rem;
   }
+
   nav .nav-links .main-content .subscribe h1 {
     width: 70%;
   }
 }
+
 @media (max-width: 1250px) and (max-width: 1250px) {
   nav .nav-links .main-content .subscribe h1 {
     width: auto;
   }
 }
+
 @media (max-width: 1250px) {
   nav .nav-links .main-content .subscribe p {
     width: 100%;
   }
 }
+
 .main-content {
   display: flex;
   gap: 2em;
@@ -143,6 +167,7 @@ nav .hamburger {
   align-items: center;
   padding-top: 2em;
 }
+
 .main-content .subscribe h1 {
   width: 70%;
   flex-wrap: wrap;
@@ -152,17 +177,20 @@ nav .hamburger {
   font-weight: normal;
   font-size: 3.7rem;
 }
+
 .main-content .subscribe form {
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
+
 .main-content .subscribe input {
   height: 50px;
   width: 60%;
   background-color: skyblue;
   border: none;
 }
+
 .main-content .subscribe button {
   width: 150px;
   height: 50px;
@@ -173,15 +201,18 @@ nav .hamburger {
   font-size: 1.5rem;
   color: white;
 }
+
 .main-content .subscribe button:hover {
   opacity: 0.8;
 }
+
 .main-content .subscribe p {
   margin-top: 1em;
   font-size: 1rem;
   color: white;
   width: 75%;
 }
+
 .main-content .subscribe p span {
   display: none;
 }
@@ -201,7 +232,8 @@ input[type=email] {
   font-size: 1.5rem;
 }
 
-input[type=text]::-moz-placeholder, input[type=email]::-moz-placeholder {
+input[type=text]::-moz-placeholder,
+input[type=email]::-moz-placeholder {
   color: navy;
 }
 
@@ -221,77 +253,97 @@ input[type=email]::placeholder {
     flex-direction: column;
     margin-left: auto;
   }
+
   .main-content .subscribe h1 {
     font-size: 2.5rem;
   }
+
   .main-content .subscribe form {
     width: 100%;
   }
+
   .subscribe {
     margin-left: 0;
   }
+
   #promo-image {
     max-width: 100%;
     margin-left: 1px;
   }
+
   .main-content .subscribe input {
     width: 100%;
   }
+
   .main-content .subscribe button {
     width: 100%;
   }
 }
+
 @media (max-width: 768px) {
   .main-content {
     gap: 1.5em;
   }
+
   .main-content .subscribe h1 {
     font-size: 3rem;
   }
+
   .main-content .subscribe form {
     flex-direction: column;
     gap: 0.8em;
   }
+
   .main-content .subscribe input,
   .main-content .subscribe button {
     width: 80%;
   }
+
   .subscribe {
     margin-left: 0;
   }
 }
+
 @media (max-width: 1250px) {
   .main-content {
     gap: 2em;
   }
+
   .main-content .subscribe h1 {
     font-size: 2.5rem;
   }
+
   .main-content .subscribe form {
     flex-direction: column;
     gap: 1em;
   }
+
   .main-content .subscribe input,
   .main-content .subscribe button {
     width: 70%;
   }
+
   .main-content .subscribe h1 {
     width: 70%;
   }
 }
+
 @media (max-width: 1250px) and (max-width: 1250px) {
   .main-content .subscribe h1 {
     width: auto;
   }
 }
+
 @media (max-width: 1250px) {
   .main-content .subscribe p {
     width: 100%;
   }
+
   .subscribe {
     margin-left: auto;
   }
 }
+
 footer {
   display: flex;
   flex-direction: row;
@@ -300,18 +352,22 @@ footer {
   margin-top: 2em;
   background-color: #2825B7;
 }
+
 footer .symbols {
   gap: 1em;
 }
+
 footer .symbols #plus-image {
   margin-left: 30px;
   width: 250px;
   height: 90px;
 }
+
 footer .social-links {
   display: flex;
   gap: 1em;
 }
+
 footer .social-links .social-icon {
   display: flex;
   align-items: center;
@@ -327,6 +383,7 @@ footer .social-links .social-icon {
   footer {
     flex-direction: column;
   }
+
   .social-links {
     margin-bottom: 20px;
   }
