@@ -11,7 +11,7 @@ A comprehensive and interactive portfolio webpage designed to showcase my journe
 2. [Technologies Used](#technologies-used)
 3. [Accessing the Project](#accessing-the-project)
 4. [Usage](#usage)
-5. [Contributing](#Contributing)
+5. [Contributing](#contributing)
 6. [License](#license)
 
 ## Features
@@ -35,7 +35,7 @@ A comprehensive and interactive portfolio webpage designed to showcase my journe
 
 ## Accessing the Project
 
-This project doesn’t require any installation or setup processes. You can view the live project [here](<live-url>) or follow the steps below to clone the project to your local machine.
+This project doesn’t require any installation or setup processes. You can view the live project [here](<https://imb0xn.github.io/Nir-Imber-Portfolio-project/>) or follow the steps below to clone the project to your local machine.
 
 ### Cloning the Repository
 
@@ -43,10 +43,8 @@ This project doesn’t require any installation or setup processes. You can view
 2. Navigate to the directory where you want to clone the repository.
 3. Run the following command:
 
-"```sh" - (Without Apostrophes)
+"```sh" (Without Apostrophes) 
 git clone <repository-url>
-
-
 
 ## Usage
 
@@ -60,16 +58,12 @@ The portfolio is intuitive and user-friendly, designed to provide a seamless vie
 
 Feel free to explore and reach out if you have any questions or opportunities!
 
-
 ## Contributing
 
 If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
 
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-
 
 ---
