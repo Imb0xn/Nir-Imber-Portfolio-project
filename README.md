@@ -43,7 +43,7 @@ This project doesn’t require any installation or setup processes. You can view
 2. Navigate to the directory where you want to clone the repository.
 3. Run the following command:
 
-```sh
+// ```sh //
 git clone <repository-url>
 
 
