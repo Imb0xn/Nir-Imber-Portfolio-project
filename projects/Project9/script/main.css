@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(../images/25501.jpg);
+  background-position: center;
+}
+
+.main-container {
+  background-image: url(../images/sky-background-video-conferencing_23-2148616311.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 100vw;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  margin: 50px;
+}
+
+.text-navy {
+  color: navy;
+  /* or whatever the exact color code is */
+}
+
+.navbar-navy {
+  color: navy;
+}
+
+.btn-aqua {
+  background-color: #87CEEB;
+  color: navy;
+  border-radius: 10%;
+}
+
+.nav-link {
+  color: navy;
+}
+
+.footer-icon {
+  background-color: navy;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+  .nav-item {
+    margin-right: 10px;
+  }
+  .btn {
+    vertical-align: bottom;
+  }
+}
+@media (max-width: 600px) {
+  .links-collapse {
+    display: none;
+    background: transparent;
+    width: 100%;
+    z-index: 10;
+  }
+  .navbar:hover .links-collapse {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .nav-link {
+    font-size: 1rem;
+    padding: 0;
+  }
+}

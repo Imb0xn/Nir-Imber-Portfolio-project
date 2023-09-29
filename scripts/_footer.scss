@@ -1,0 +1,39 @@
+        /* Footer Area */
+        .footer-area {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+        }
+
+        .footer-content {
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-content p,
+        .footer-content h4 {
+            margin: 0;
+        }
+
+        /* Back to Top Button Area */
+
+        .back-to-top-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            background-color: #009688;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-to-top-btn:hover {
+            background-color: #007566;
+        }

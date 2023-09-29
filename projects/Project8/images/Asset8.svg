@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 486.97 394.91">
+  <defs>
+    <style>
+      .cls-1 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        opacity: .22;
+      }
+
+      .cls-3 {
+        fill: url(#Degradado_sin_nombre_643-2);
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        mix-blend-mode: overlay;
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_643);
+      }
+
+      .cls-5 {
+        fill: url(#Degradado_sin_nombre_538);
+      }
+
+      .cls-6 {
+        fill: url(#Degradado_sin_nombre_538-2);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre_538" data-name="Degradado sin nombre 538" x1="201.58" y1="-64.54" x2="201.58" y2="327.76" gradientTransform="translate(166.88 69.92) rotate(-.32) scale(.57 .83)" gradientUnits="userSpaceOnUse">
+      <stop offset=".04" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".51" stop-color="#fff" stop-opacity=".91"/>
+      <stop offset=".55" stop-color="#fff" stop-opacity=".72"/>
+      <stop offset=".58" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".62" stop-color="#fff" stop-opacity=".4"/>
+      <stop offset=".66" stop-color="#fff" stop-opacity=".28"/>
+      <stop offset=".71" stop-color="#fff" stop-opacity=".17"/>
+      <stop offset=".76" stop-color="#fff" stop-opacity=".1"/>
+      <stop offset=".81" stop-color="#fff" stop-opacity=".04"/>
+      <stop offset=".88" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_538-2" data-name="Degradado sin nombre 538" x1="148.73" y1="214.03" x2="148.73" y2="494.14" gradientTransform="translate(445.58 569.57) rotate(179.68) scale(.57 .83)" xlink:href="#Degradado_sin_nombre_538"/>
+    <linearGradient id="Degradado_sin_nombre_643" data-name="Degradado sin nombre 643" x1="507.14" y1="306.3" x2="507.14" y2="685.58" gradientTransform="translate(441.88 569.29) rotate(179.69) scale(.11 .83) skewX(.1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".01" stop-color="#fff" stop-opacity=".03"/>
+      <stop offset=".15" stop-color="#fff" stop-opacity=".37"/>
+      <stop offset=".28" stop-color="#fff" stop-opacity=".64"/>
+      <stop offset=".38" stop-color="#fff" stop-opacity=".83"/>
+      <stop offset=".46" stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".58" stop-color="#fff" stop-opacity=".79"/>
+      <stop offset=".69" stop-color="#fff" stop-opacity=".51"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".29"/>
+      <stop offset=".89" stop-color="#fff" stop-opacity=".13"/>
+      <stop offset=".96" stop-color="#fff" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_643-2" data-name="Degradado sin nombre 643" x1="-166.69" y1="164.78" x2="-166.69" y2="544.07" gradientTransform="translate(119.81 -69.57) rotate(-.31) scale(.11 .83) skewX(.1)" xlink:href="#Degradado_sin_nombre_643"/>
+  </defs>
+  <g class="cls-1">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="OBJECTS">
+        <g class="cls-2">
+          <g>
+            <polygon class="cls-5" points="217.96 329.55 151.64 343.5 345.06 27.53 411.38 13.58 217.96 329.55"/>
+            <polygon class="cls-6" points="405.16 169.3 452.52 159.34 314.41 384.95 267.06 394.91 405.16 169.3"/>
+            <polygon class="cls-4" points="474.08 2.71 486.97 0 293.55 315.97 280.65 318.69 474.08 2.71"/>
+            <polygon class="cls-3" points="12.89 380.49 0 383.2 193.42 67.23 206.31 64.52 12.89 380.49"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
