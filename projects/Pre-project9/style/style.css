@@ -138,13 +138,13 @@
             font-size: 1.25rem;
             letter-spacing: 0.1em;
             font-weight: bold;
+            margin-bottom: 30px;
         }
 
         .download-button {
             border-radius: 15px;
             margin-right: 25px;
-            margin-top: 27px;
-            border: 5px solid #1AE0EC;
+            border: 8px solid #1AE0EC;
             text-decoration: none;
             transition: color 0.5s;
             color: black;
@@ -154,7 +154,6 @@
             line-height: 26px;
             font-family: 'Barlow';
             width: 152px;
-            margin-bottom: 25px;
             cursor: pointer;
         }
 
