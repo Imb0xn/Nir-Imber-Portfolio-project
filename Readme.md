@@ -1,9 +1,9 @@
 # Nir-Imber-Portfolio-project
 
-A comprehensive and interactive portfolio webpage designed to showcase my journey, experiences, and projects as a Full Stack Developer.
- It features an integrated CV, a dynamic gallery displaying a compilation of my projects, and contact information, offering insights into my technical skills, proficiencies, and contributions to the software development world.
+A comprehensive and interactive portfolio webpage designed to showcase my journey, experiences, and projects as a Full Stack Developer. It features an integrated CV, a dynamic gallery displaying a compilation of my projects, and contact information, offering insights into my technical skills, proficiencies, and contributions to the software development world.
 
-![Portfolio Screenshot](link-to-screenshot-of-your-portfolio.jpg)
+![Portfolio Screenshot](https://i.ibb.co/rwGdg3h/Screenshot-2024-02-20-131427.jpg)
+
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ A comprehensive and interactive portfolio webpage designed to showcase my journe
 
 - **Contact Form:** Allows visitors to send messages or inquiries directly through the website.
 - **Resume Download:** Provides a download button for easy access to my CV in PDF format.
-- **Project Gallery:** Displays a curated collection of my works, offering viewers insights into my skills and experiences.
+- **Project Gallery:** Displays a curated collection of my works, including a newly added JavaScript gallery, offering viewers insights into my skills and experiences.
 - **Contact Icons:** Offers quick links to my Email, LinkedIn, Facebook, and an option to call, facilitating seamless communication.
 - **Responsive Design:** Ensures optimal viewing and interaction experience across a wide range of devices.
 - **Navigation Menu:** Enables easy access to different sections of the portfolio, providing a user-friendly experience.
@@ -29,6 +29,9 @@ A comprehensive and interactive portfolio webpage designed to showcase my journe
 - **HTML5:** Markup language used for structuring the content on the web.
 - **CSS3:** Style sheet language used for describing the look and formatting of the document written in HTML.
 - **SASS:** Professional grade CSS extension language known for its stability and powerful features.
+- **Bootstrap:** Front-end framework for designing websites and web applications.
+- **JavaScript:** Dynamic programming language used to create interactive effects within web browsers.
+- **TypeScript:** A superset of JavaScript that adds static type definitions, improving development and maintainability.
 
 ### Tools:
 - **Visual Studio Code:** Source code editor that provides a range of powerful and effective features for software development.
@@ -42,9 +45,9 @@ This project doesn’t require any installation or setup processes. You can view
 1. Open your terminal.
 2. Navigate to the directory where you want to clone the repository.
 3. Run the following command:
-
-"```sh" (Without Apostrophes) 
+```sh
 git clone <repository-url>
+
 
 ## Usage
 

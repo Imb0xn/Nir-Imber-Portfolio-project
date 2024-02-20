@@ -1,0 +1,198 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+header {
+    text-align: center;
+    color: #0077cc;
+    font-family: 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+
+#task-group,
+#new-task,
+.add-group input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.add-group,
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.add-group button,
+#add-task-btn,
+.group-btn,
+.delete-group-btn {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.delete-group-btn {
+    background-color: red;
+    font-weight: normal;
+    border-radius: 20px
+}
+
+.delete-group-btn:hover {
+    background-color: black;
+}
+
+.add-group button:hover,
+#add-task-btn:hover,
+.group-btn:hover {
+    background-color: #e68a00;
+    transform: translateY(-2px);
+}
+
+.group-selector {
+    margin-top: 20px;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+
+ul li:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul li .pin-btn,
+ul li .delete-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #bbb;
+    transition: color 0.3s;
+}
+
+ul li .delete-btn:hover {
+    color: #666;
+}
+
+ul li.pinned {
+    background-color: #fff3e0;
+}
+
+ul li.pinned .pin-btn {
+    color: gold;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+        /* Slightly reduce the font size */
+    }
+
+    .container {
+        margin: 10px;
+        /* Reduce margin */
+        padding: 15px;
+        /* Adjust padding for smaller screens */
+    }
+
+    header {
+        margin-bottom: 15px;
+    }
+
+    .add-group,
+    .task-input {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+
+    .add-group button,
+    #add-task-btn,
+    .group-btn,
+    .delete-group-btn {
+        width: auto;
+        margin-top: 5px;
+        padding: 5px 5px;
+    }
+
+    #task-group,
+    #new-task,
+    .add-group input[type="text"] {
+        width: auto;
+        margin-bottom: 10px;
+    }
+
+    .group-selector {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .group-btn,
+    .delete-group-btn {
+        margin: 5px;
+    }
+
+    ul li {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}

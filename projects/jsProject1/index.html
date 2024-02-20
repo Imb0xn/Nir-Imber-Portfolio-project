@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>My To-Do List</h1>
+        </header>
+
+        <div class="add-group">
+            <input type="text" id="new-group" placeholder="Add a new group...">
+            <button id="add-group-btn">Add Group</button>
+        </div>
+
+        <div class="task-input">
+            <input type="text" id="new-task" placeholder="Add a new task...">
+            <select id="task-group">
+                <option value="All">All Tasks</option>
+                <!-- Additional group options will be dynamically added here -->
+            </select>
+            <button id="add-task-btn">+</button>
+        </div>
+
+        <div class="group-selector">
+            <button class="group-btn" onclick="filterTasks('All')">All Tasks</button>
+            <!-- Add more buttons here for different groups -->
+        </div>
+
+        <ul id="task-list">
+            <!-- Tasks will appear here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+#js-project-gallery {
+    background-color: whitesmoke;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.js-project-gallery-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.js-project-gallery-description {
+    font-size: 1.2em;
+    color: #030303;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.js-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: #fff;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    /* Ensure font-family is properly quoted */
+}
+
+.grid-item p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.grid-item h3 {
+    font-size: 25px;
+}
+
+.grid-item-img {
+    overflow: hidden;
+}
+
+.grid-item img {
+    max-width: 100%;
+    aspect-ratio: 1 / 0.5;
+    /* Adjust aspect ratio as needed */
+    object-fit: cover;
+}
+
+.icons img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.project-link {
+    margin-top: 5px;
+    border: 5px solid #1AE0EC;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: color 0.5s;
+    color: black;
+    background-color: #1AE0EC;
+    font-weight: bold;
+    font-stretch: medium;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Barlow', sans-serif;
+    /* Ensure font-family is properly quoted */
+    width: 150px;
+    margin-bottom: 25px;
+    display: inline-block;
+    /* Added for better alignment and spacing */
+}
+
+.project-link:hover {
+    color: #4b4747;
+}

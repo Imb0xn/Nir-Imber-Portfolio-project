@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Create Customized Element</title>
+</head>
+
+<body>
+    <div class="intro-box">
+        <h2>Welcome to Element Builder!</h2>
+        <p>
+            <strong>Quick Guide:</strong><br>
+            1. <strong>Choose an Element:</strong> Pick a type (like H1, Paragraph) from the dropdown.<br>
+            2. <strong>Customize:</strong> Type your text, set colors, size, spacing, and more in the fields.<br>
+            3. <strong>Create:</strong> Press "Create Element" to see your design on the right.<br>
+            4. <strong>Manage:</strong> Use "Delete Board" to clear the screen, or "Save to Local Storage" to keep your
+            layout.<br>
+        </p>
+        <p>Enjoy crafting your unique page elements!</p>
+    </div>
+    <div class="wrapper">
+
+        <div class="controls">
+            <select id="elementTypeInput">
+                <option value="h1">H1</option>
+                <option value="h2">H2</option>
+                <option value="h3">H3</option>
+                <option value="p">Paragraph</option>
+                <option value="div">Div</option>
+                <option value="span">Span</option>
+            </select>
+            <textarea id="contentInput" placeholder="Enter element "></textarea>
+            <input type="text" id="backgroundColorInput" placeholder="Enter background color">
+            <input type="number" id="widthInput" placeholder="Enter Text width (px)">
+            <input type="number" id="heightInput" placeholder="Enter Text height (px)">
+            <input type="text" id="fontColorInput" placeholder="Enter font color">
+            <input type="number" id="fontSizeInput" placeholder="Enter font size (px)">
+            <input type="number" id="frameThicknessInput" placeholder="Enter frame thickness (px)">
+            <label for="borderStyleInput"></label>
+            <select id="borderStyleInput">
+                <option value="" disabled selected>Select border style</option>
+                <option value="none">None</option>
+                <option value="solid">Solid</option>
+                <option value="dotted">Dotted</option>
+                <option value="dashed">Dashed</option>
+                <option value="double">Double</option>
+                <option value="groove">Groove</option>
+                <option value="ridge">Ridge</option>
+                <option value="inset">Inset</option>
+                <option value="outset">Outset</option>
+                <option value="hidden">Hidden</option>
+            </select>
+
+            <input type="text" id="borderColorInput" placeholder="Enter Border Color">
+            <input type="number" id="innerSpacingInput" placeholder="Enter inner spacing (px)">
+            <input type="number" id="outerSpacingInput" placeholder="Enter outer spacing (px)">
+            <input type="number" id="roundedCornersInput" placeholder="Enter corners radius (px)">
+            <button id="createElementButton">Create Element</button>
+            <button id="clearBoardButton">Delete Board</button>
+
+            <button id="saveToLocalButton" onclick="saveToLocalStorage()">Save to Local Storage</button>
+        </div>
+
+        <div class="container">
+            <div id="dynamicElements">
+
+                <!-- This is where the created elements will be displayed -->
+            </div>
+        </div>
+    </div>
+
+    <script defer src="main.js"></script>
+</body>
+
+</html>

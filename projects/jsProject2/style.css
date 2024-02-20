@@ -1,0 +1,170 @@
+/* I need to remember to add fonts */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: tan;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 60px;
+    border-radius: 10px;
+    color: aqua;
+    background: teal;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-content {
+    line-height: 1.5;
+
+}
+
+h3 {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+
+}
+
+p {
+    font-size: 0.75em;
+    color: brown;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: burlywood;
+    box-shadow: 0 5px 20px 0;
+    backdrop-filter: blur(1.5px);
+    transition: all 0.5s;
+}
+
+.wrapper:hover {
+    box-shadow: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px
+}
+
+.main div {
+    width: 20%;
+    text-align: center;
+}
+
+.main .number {
+    position: relative;
+    font-size: 3em;
+    line-height: 2;
+    color: black
+}
+
+.colon {
+    font-size: 1.5em;
+}
+
+.btns {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    background: burlywood;
+    font-size: 0.90em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: all 0.3s;
+    box-shadow: 0 5px 20px 0;
+    border: 2px solid grey;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+/* Hidden button for the timer, I've put it under the clock section  */
+.hidden {
+    display: none;
+}
+
+/* Stop Watch */
+
+.laps {
+    position: relative;
+    max-height: 200px;
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.laps .lap {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: grey;
+    border-radius: 10px;
+    border: 5px solid grey;
+}
+
+.laps .lap.active p {
+    color: white;
+}
+
+@media (max-width: 650px) {
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0;
+        padding: 0 20px;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .main div {
+        width: 15%;
+    }
+
+    .main .number {
+        font-size: 1.5em;
+    }
+
+    .colon {
+        font-size: 0.75em;
+    }
+
+
+}

@@ -96,6 +96,15 @@
         margin-bottom: 25px
     }
 
+
+
+    .js-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 25px;
+        gap: 0;
+    }
+
+
     .contact {
         box-sizing: border-box;
         font-size: 10px;

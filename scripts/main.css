@@ -269,7 +269,7 @@ header ul li a {
   max-width: 100%;
   aspect-ratio: 1/0.5;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .icons img {
@@ -293,6 +293,100 @@ header ul li a {
   font-family: "Barlow";
   width: 150px;
   margin-bottom: 25px;
+}
+
+.project-link:hover {
+  color: #4b4747;
+}
+
+#js-project-gallery {
+  background-color: whitesmoke;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.js-project-gallery-title {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.js-project-gallery-description {
+  font-size: 1.2em;
+  color: #030303;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.js-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background-color: #fff;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Heebo", sans-serif;
+  /* Ensure font-family is properly quoted */
+}
+
+.grid-item p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.grid-item h3 {
+  font-size: 25px;
+}
+
+.grid-item-img {
+  overflow: hidden;
+}
+
+.grid-item img {
+  max-width: 100%;
+  aspect-ratio: 1/0.5;
+  /* Adjust aspect ratio as needed */
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.icons img {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
+.project-link {
+  margin-top: 5px;
+  border: 5px solid #1AE0EC;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: color 0.5s;
+  color: black;
+  background-color: #1AE0EC;
+  font-weight: bold;
+  font-stretch: medium;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Barlow", sans-serif;
+  /* Ensure font-family is properly quoted */
+  width: 150px;
+  margin-bottom: 25px;
+  display: inline-block;
+  /* Added for better alignment and spacing */
 }
 
 .project-link:hover {
@@ -451,17 +545,21 @@ textarea {
 }
 
 @media screen and (max-width: 700px) {
+
   .nir-imber-logo,
   .me-icon-logo {
     display: none;
   }
+
   .icon-container img {
     width: 55px;
     height: 55px;
   }
+
   header ul {
     width: auto;
   }
+
   .back-to-top-btn {
     color: white;
     padding: 10px 10px;
@@ -471,10 +569,12 @@ textarea {
     transition: background-color 0.3s ease;
   }
 }
+
 @media (max-width: 450px) {
   .hamburger {
     display: block;
   }
+
   header ul li a {
     display: none;
     background-color: whitesmoke;
@@ -482,12 +582,15 @@ textarea {
     width: 100%;
     z-index: 9998;
   }
+
   nav ul {
     display: block;
   }
-  .hamburger:hover + ul li a {
+
+  .hamburger:hover+ul li a {
     display: block;
   }
+
   /* Logo  */
   /* Responsive- Hamburger & Nav  - END OF SECTION*/
   .center-text {
@@ -496,15 +599,18 @@ textarea {
     font-size: 15px;
     text-align: center;
   }
+
   .icon-container {
     gap: 8px;
   }
+
   .icon-container img {
     margin-top: 7px;
     margin-bottom: 5px;
     width: 45px;
     height: 45px;
   }
+
   .main,
   .main-text {
     margin-bottom: auto;
@@ -512,31 +618,45 @@ textarea {
     box-sizing: border-box;
     font-size: 1.5rem;
   }
+
   .profile-image {
     margin-top: 0;
   }
+
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
     padding: 25px;
     gap: 0;
   }
+
   .grid-item {
     margin: 20px 0px;
   }
+
   .project-link {
     margin-bottom: 25px;
   }
+
+  .js-grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 25px;
+    gap: 0;
+  }
+
   .contact {
     box-sizing: border-box;
     font-size: 10px;
   }
+
   .contact-form {
     width: auto;
   }
+
   input,
   textarea {
     width: 100%;
   }
+
   .submit-button {
     font-style: normal;
     font-weight: bold;
@@ -553,26 +673,32 @@ textarea {
     min-width: 93px;
     text-align: center;
   }
+
   .contact-form {
     margin-left: 10px;
   }
+
   .contact p {
     margin-top: auto;
   }
+
   .contact-icons ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style: none;
     padding: 0;
   }
+
   .contact-icons ul li {
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
   }
+
   .contact-icons ul li a {
     padding: 20px;
   }
+
   .icon-wrapper {
     display: flex;
     flex-direction: column;

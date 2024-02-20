@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Simon Game</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="gameGuide">
+            <h2>How to Play</h2>
+            <p>Watch the pattern of lights and sounds and repeat it back to advance to the next level. Each time you
+                correctly
+                repeat the pattern, it gets one step longer. Good luck!</p>
+        </div>
+
+
+        <div id="gameContainer">
+            <div class="colorButton" id="button1"></div>
+            <div class="colorButton" id="button2"></div>
+            <div class="colorButton" id="button3"></div>
+            <div class="colorButton" id="button4"></div>
+        </div>
+        <div id="gameStatus">Press any button to start</div>
+
+        <div id="scoreboard">
+            <h2>Top Scores</h2>
+            <ol id="scoreList"></ol>
+        </div>
+        <button id="resetScoreboardButton">Reset Scoreboard</button>
+
+        <div id="nameModal" style="display:none;">
+            <input type="text" id="playerName" placeholder="Enter your name" />
+            <button onclick="saveScore()">Save Score</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

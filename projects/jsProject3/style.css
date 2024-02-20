@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.intro-box {
+    background-color: #e8f4f8;
+    border-left: 5px solid #4CAF50;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.intro-box h2 {
+    color: #333;
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.intro-box p {
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.intro-box strong {
+    color: #2a2a2a;
+}
+
+
+.wrapper {
+    display: flex;
+}
+
+.controls {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.container {
+    flex: 2;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: auto;
+}
+
+
+select {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    width: 90%;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+select,
+textarea,
+input[type="text"],
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 50px;
+    resize: vertical;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.element {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.preview-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    overflow-x: auto;
+    /* Ensures content is scrollable horizontally if it overflows */
+    white-space: pre-wrap;
+    /* Maintains formatting */
+    font-family: monospace;
+    /* Gives it a code-like appearance */
+    height: 150px;
+    /* Adjust based on your needs */
+    width: 50%;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 1920px) {
+    button {
+        font-size: 10px;
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    .intro-box h2,
+    p {
+        width: 100%;
+        font-size: .75em;
+    }
+
+    select,
+    textarea,
+    input[type="text"],
+    input[type="number"] {
+        height: 35px;
+        margin: 7px 0;
+        font-size: 0.70rem;
+    }
+
+    button {
+        font-size: 0.70em;
+        width: 90%;
+    }
+
+    #saveToLocalButton {
+        margin: 7px 0;
+    }
+
+    .wrapper {
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+
+
+    .controls {
+        order: 2;
+        /* Controls below the container on small screens */
+    }
+
+    .container {
+        order: 1;
+        height: auto;
+        margin-right: auto;
+        /* Container above the controls on small screens */
+    }
+
+}
+
+@media (max-width: 450px) {
+
+
+    .intro-box h2,
+    p {
+        font-size: 10px;
+    }
+
+    select,
+    textarea,
+    input[type="text"],
+    input[type="number"] {
+
+        font-size: 10px;
+    }
+
+    button {
+        font-size: 10px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+	<script type="module" defer src="./TypeScript/main.js"></script>
+
+	<title>User Management</title>
+</head>
+
+<body>
+
+	<body>
+		<div id="registrationModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h2>Register</h2>
+				<input type="text" id="username" placeholder="Username">
+				<input type="email" id="email" placeholder="Email">
+				<input type="password" id="password" placeholder="Password">
+				<input type="text" id="firstName" placeholder="First Name">
+				<input type="text" id="lastName" placeholder="Last Name">
+				<button id="registerButton">Register</button>
+
+			</div>
+		</div>
+
+		<div id="loginSection">
+			<div class="login-content">
+
+				<input type="text" id="loginUsername" placeholder="Username">
+				<input type="password" id="loginPassword" placeholder="Password">
+				<button id="loginButton">Login</button>
+			</div>
+		</div>
+
+
+		<table id="userTable" style="display: none;">
+			<thead>
+				<tr>
+					<th>User Name</th>
+					<th>Email</th>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Status</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody id="userTableBody">
+			</tbody>
+		</table>
+
+
+	</body>
+
+</html>
